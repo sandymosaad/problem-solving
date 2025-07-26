@@ -173,5 +173,7 @@ function letterChanges(str) {
     return result;
 }
 
-console.log(letterChanges("fun"));  
-console.log(letterChanges("zoo"));  
+//console.log(letterChanges("fun"));  
+//console.log(letterChanges("zoo"));  
+
+

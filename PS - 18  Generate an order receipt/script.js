@@ -12,7 +12,8 @@ for(let i=0; i<order.length; i++){
 }
 
 console.log(`
-    Receipt:
+    Receipt:  
+    ----------------------------
     ${order.map(item=> 
     `
     ${item.item}, - Quantity: ${item.quantity}, Price - ${item.price} $, Total: ${item.price * item.quantity}$`).join('\n')}

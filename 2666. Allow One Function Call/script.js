@@ -32,3 +32,12 @@ var once = function(fn) {
         return fn(...args);
     }
 };
+//test cases
+const onceFn = once((a,b,c) => (a + b + c));
+console.log(onceFn(1, 2, 3));
+console.log(onceFn(2, 3, 6));
+
+const onceFn2 = once((a,b,c) => (a * b * c));
+console.log(onceFn2(5, 7, 4));
+console.log(onceFn2(2, 3, 6));
+console.log(onceFn2(4, 6, 8));
